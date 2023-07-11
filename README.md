@@ -15,3 +15,9 @@ from a binary wheel (.whl)
 git clone -b $VERSION git@github.com:maxmarsc/pylilv.git 
 pip install -e pylilv
 ```
+
+or 
+
+```bash
+pip install https://github.com/maxmarsc/pylilv/archive/refs/tags/$VERSION.zip
+```
