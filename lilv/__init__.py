@@ -1,1 +1,1 @@
-from lilv import *
+from .lilv import *

@@ -6,18 +6,11 @@ the `liblilv` installed on your system.
 
 If you need both the library and the python module I suggest checking [moddevices/lilvlib](https://github.com/moddevices/lilvlib)
 
-__Note:__ The setup.py below only works when installing a source distribution zip or tarball, 
-or installing in editable mode from a source tree. It will not work when installing
-from a binary wheel (.whl)
+__Note:__ The setup.py below only works when installing in editable mode from a source tree.
+It will not work when installing from a binary wheel (.whl) or from a .zip source code
 
 ## Install
 ```bash
 git clone -b $VERSION git@github.com:maxmarsc/pylilv.git 
 pip install -e pylilv
-```
-
-or 
-
-```bash
-pip install https://github.com/maxmarsc/pylilv/archive/refs/tags/$VERSION.zip
 ```
