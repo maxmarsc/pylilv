@@ -4,7 +4,7 @@ from setuptools.command.install import install
 import urllib.request
 from pathlib import Path
 
-VERSION = "v0.24.6"
+VERSION = "v0.24.14"
 URL = 'https://raw.githubusercontent.com/lv2/lilv/{}/bindings/python/lilv.py'.format(VERSION)
 BASE_DIR = Path(__file__).parent
 
